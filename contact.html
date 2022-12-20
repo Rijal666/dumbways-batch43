@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>RIZKI RIZAL MUALIM</title>
+        <link rel="stylesheet" href="css/contact.css">
+    </head>
+    <body>
+        
+        <nav>
+            <ul>
+                <li> <img src="berkas/logo.png" style="width: 50px" /> </li>
+                <li> <a href="index.html"> Home </a></li>
+                <li> <a href=""> My Project </a> </li>
+                <li style="width: 70%; display: flex; justify-content: flex-end;">
+                    <button class="btn-contact">
+                        <a href="contact.html" style="color: white;">Contact Me</a>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="div1">
+            <form>
+                <div>
+                    <h1 style=" display: flex; justify-content: center;">GET IN TOUCH</h1>
+                        <label>Name</label><br>
+                    <input type="text" id="nama"/>
+                </div>
+
+                <div>
+                    <label>Email</label><br>
+                    <input type="text" id="mail"/>
+                </div>
+
+                <div>
+                    <label>Phone number</label><br>
+                    <input type="text" id="nomor"/>
+                </div>
+
+                <div>
+                    <label>Subject</label><br>
+                    <select style="width: 370px;" id="subjek">
+                        <option selected="selected" disabled="disabled">pilih</option>
+                        <option>opsi 1</option>
+                        <option>opsi 2</option>
+                        <option>opsi 3</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Your message</label><br>
+                    <textarea style="padding-bottom: 50px; resize: none;" id="pesan"></textarea>
+                </div>
+
+                <div style="display: flex; justify-content: end;">
+                <button type="button" class="btn-submit" onclick="submitData()">    
+                    Submit
+                </button>
+                </div>
+            </form>
+        </div>
+        <script src="contact.js"></script>
+    </body>
+</html>

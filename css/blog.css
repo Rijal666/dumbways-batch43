@@ -1,0 +1,172 @@
+body{
+    background-color: rgb(217, 217, 217);
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+nav {
+    background-color: #c2c2c2;
+    padding: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black
+}
+
+.btn-contact {
+    margin-top: 0;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.div1 {
+    margin: 10px 31%;
+    font-size: 20px;
+    display:block; 
+    justify-content: center;
+}
+
+.text-input{
+    width: 97%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+    box-shadow: 0 5px 15px rgb(170, 170, 170);
+}
+
+.div2 {
+    padding-right: 50px;
+    margin-right: 30px;
+}
+
+.input-date{
+    width: 134%;
+    margin-bottom: 15px;
+    padding: 10px 6px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 5px 15px rgb(170, 170, 170);
+}
+
+
+
+.cb1{
+    display:flex ; 
+    margin-left: 22px;
+}
+
+.cb2{
+    padding-right: 100px ;
+    padding-bottom: 15px;
+}
+
+.cb3{
+    transform: scale(1.50);
+    -webkit-transform: scale(1.50);
+    margin-bottom: 20px;
+    
+}
+.cb1 .cb2 .cb3 label{
+    font-size: 15px;
+}
+
+.cb3 label{
+    font-size: 15px;
+}
+
+.uploadfile{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgb(170, 170, 170);
+}
+
+.uploadfile label{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-submit{
+    background: black; 
+    color: white; 
+    padding: 5px 25px; 
+    margin-top: 10px;
+    margin-bottom: 30px; 
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.container-blog{
+    margin-right: 100px; 
+    margin: 0 40px 0 30px;
+    padding-bottom: 100%;   
+    display: flex;
+    justify-content:flex-start ;
+    flex-wrap: wrap;
+    border-radius: 8px;
+}
+
+
+.blog{
+    box-shadow: 0px 5px 20px grey;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 20px 17px 20px 17px
+    
+}
+
+.blog-image img{
+    width: 350px;
+    border-radius: 8px;
+}
+.date-blog{
+    font-size: small;
+    width: 350px;
+}
+.logjav{
+    width: 350px;
+}
+.desc-blog{
+    width: 350px;
+    font-size: small;
+}
+.nama-blog{
+    width: 350px;
+    font-size:20px;
+}
+
+.button1{
+    margin-bottom: 5%;
+    background: black; 
+    color: white; 
+    padding: 5px 70px; 
+    margin-top: 10px; 
+    border-radius: 5px;
+}
+
+.nama {
+    text-decoration: none;
+    color: black;
+}

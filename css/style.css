@@ -1,0 +1,80 @@
+body{
+background-color: rgb(217, 217, 217);
+font-family: sans-serif;
+margin: 0px;
+}
+
+.div1 {
+margin: 60px 100px; 
+box-shadow: 0 5px 15px rgb(170, 170, 170);
+border-radius: 8px; 
+background-color: white;
+display:flex;
+}
+
+.div2 { 
+padding: 30px 50px;
+width: 90%;
+}
+
+button {
+background: black; 
+color: white; 
+padding: 5px 25px; 
+margin-top: 10px; 
+border-radius: 15px;
+}
+
+.text {
+text-decoration: none; 
+color: black;
+}
+
+.icon {
+width: 40px; 
+border-radius: 20px; 
+margin: 10px;
+}
+
+.card {
+margin: 40px 90px;
+text-align: center;
+box-shadow: 0 5px 15px rgb(170, 170, 170);
+border-radius: 10px;
+overflow: hidden;
+}
+
+
+
+
+nav {
+    background-color: #c2c2c2;
+    padding: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black
+}
+
+.btn-contact {
+    margin-top: 0;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 15px
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>RIZKI RIZAL MUALIM</title>
+        <link rel="stylesheet" href="css/blog.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li> <img src="berkas/logo.png" style="width: 50px" /> </li>
+                <li> <a href="index.html" style="color: black;" > Home </a></li>
+                <li> <a href="" style="color: orangered;"> My Project </a> </li>
+                <li style="width: 70%; display: flex; justify-content: flex-end;">
+                    <button class="btn-contact">
+                        <a href="contact.html" style="color: white;">Contact Me</a>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+     <form onsubmit="addcard(event)">
+
+        <div style="display: flex; justify-content: center;">
+            <h1>ADD MY PROJECT</h1>
+        </div>
+
+        <div class="div1">
+
+                <div>
+                    <label  for="input-nama">Project Name</label><br>
+                    <input type="text" class="text-input" id="input-nama"/>
+                </div>
+
+                    <div style="display:flex ;">
+                        <div class="div2">
+                            <label for="input-sdate">Start Date</label><br>
+                            <input type="datetime-local" class="input-date" id="input-sdate"/>
+                        </div>
+
+                        <div class="div2">
+                            <label for="input-edate">End Date</label><br>
+                            <input type="datetime-local" class="input-date" id="input-edate"/>
+                        </div>
+                    </div>
+
+                <div>
+                    <label for="input-desc">Description</label><br>
+                    <textarea type="text" id="input-desc" class="text-input" style="padding-bottom: 20px;"></textarea>
+                </div>
+
+                <label>Technologies</label><br><br>
+                <div class="cb1">
+                    <div class="cb2">
+                        <div class="cb3"> 
+                            <input  type="checkbox" id="nodejs" value='<img src="berkas/nodejs.png" style="width: 20px" />' class="checkbox">
+                            <label for="nodejs">Node Js</label><br>
+                        </div>
+                        <div class="cb3">
+                            <input type="checkbox" id="reactjs" value='<img src="berkas/react.jpg" style="width: 20px" />' class="checkbox">
+                            <label for="reactjs">React Js</label><br>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="cb3">
+                            <input type="checkbox" id="nextjs" value='<img src="berkas/nextjs.png" style="width: 20px" />' class="checkbox">
+                            <label for="nextjs">Next Js</label><br>
+                        </div>
+                        <div class="cb3">
+                            <input type="checkbox" id="typescript" value='<img src="berkas/typescript.png" style="width: 20px" />' class="checkbox">
+                            <label for="typescript">Typescript</label><br>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <label>Upload Image</label>
+                    <div class="uploadfile">
+                        <label for="input-image">
+                            <button style="padding: 10px; color: grey;">Chosee</button>
+                            <img src="berkas/file.png"/>
+                            <input type="file" id="input-image" hidden/>
+                        </label>
+                    </div>
+                    <div  style="display: flex; justify-content: flex-end;">
+                        <button type="submit" class="btn-submit " onclick="addcard(event)">Submit</button>
+                    </div> 
+                </div>
+        </div>
+    </form>
+    <hr hidden/>
+    <div style="background-color: white;">
+        <div style="display: flex; justify-content: center; padding-top: 30px;">
+            <h1>MY PROJECT</h1>
+        </div>
+        <div id="content" class="container-blog">
+            <!-- <div class="blog">
+                <div class="blog-image">
+                  <img src="berkas/poto4.jpg">
+                </div>
+                <div>
+                <h1 class="nama-blog">
+                  <a href="blog-detail.html" target="_blank" class="nama">dumbways mobile app</a>
+                </hi>
+                </div>
+                <div class="date-blog">
+                durasi 3 bulan
+                </div>
+                <p class="desc-blog">aku sebenernya cinta kamu</p>
+                <div class="logjav">${card[i].listbox}
+                </div>
+                <div style="display:flex;">
+                <button type="button" class="button1" style="margin-right:5px;">edit</button>
+                <button type="button" class="button1">delete</button>
+                </div>
+                </div> -->
+        </div>
+    </div>
+    <script src="blog.js"></script>
+    </body>
+</html>

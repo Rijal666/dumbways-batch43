@@ -1,0 +1,51 @@
+body{
+background-color: rgb(217, 217, 217);
+font-family: sans-serif;
+margin: 0px;
+}
+
+.div1 {
+width: 90%;
+margin: 5%;
+padding: 25px 10px;
+box-shadow: 0 5px 15px rgb(170, 170, 170);
+border-radius: 8px; 
+background-color: white;
+display:flex;
+flex-direction: row;
+justify-content: center;
+flex-flow: wrap;
+}
+
+.div2 { 
+width: 70%;
+padding: 20px 50px;
+}
+
+
+
+button {
+background: black; 
+color: white; 
+padding: 5px 25px; 
+margin-top: 10px; 
+border-radius: 15px;
+}
+
+.text {
+text-decoration: none; 
+color: black;
+}
+
+.icon {
+width: 40px; 
+border-radius: 20px; 
+margin: 10px;
+}
+
+.card {
+text-align: center;
+box-shadow: 0 5px 15px rgb(170, 170, 170);
+border-radius: 10px;
+overflow: hidden;
+}

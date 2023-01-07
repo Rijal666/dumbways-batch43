@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rizki rizal mualim</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body class="bg-body-secondary">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid ms-5 me-5">
+            <a class="navbar-brand" href="#">
+                <img src="public/berkas/logo.png" alt="dumbways" width="30" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" aria-current="page" href="/">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link fs-5" href="/add-Project">Add Project</a>
+                        
+                    </li>
+                    
+
+                </ul>
+                <div class="d-flex justify-content-end me-3">
+                        <a class="nav-link me-3 fs-5 fw-bold" aria-current="page" href="/register">Register</a>
+                        <a class="nav-link fs-5" href="/login">Login</a>
+                </div>
+                    <button type="button" class="btn btn-outline-dark mt-0">
+                        <a class="nav-link" href="/contact">Contact me</a>
+                    </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-lg">
+        <h2 class="fw-bold m-5 text-center ">REGISTER YOUR ACCOUNT</h2>
+        <form style="margin: 0px 300px;" action="/register" method="post">
+            <div>
+                <div class="mb-3">
+                    <label for="name" class="form-label fw-bold">Name</label>
+                    <input type="text" class="form-control shadow" id="name" name="name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label fw-bold">Email address</label>
+                    <input type="email" class="form-control shadow" id="email" name="email" placeholder="name@example.com">
+                    </div>
+                <div class="mb-3">
+                    <label for="pw" class="form-label fw-bold">Password</label>
+                    <input type="password" name="pw" class="form-control shadow" id="pw">
+                </div>
+                <div class="d-flex justify-content-end mt-5">
+                    <button type="submit" style="padding: 5px 25px;" class="btn btn-dark rounded-pill">submit</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>

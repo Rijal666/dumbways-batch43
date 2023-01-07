@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(217, 217, 217);
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+form{
+    margin: 10px 270px;
+}
+
+.uploadfile{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgb(170, 170, 170);
+}
+
+.uploadfile label{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
